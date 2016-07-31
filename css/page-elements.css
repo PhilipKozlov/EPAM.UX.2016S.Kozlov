@@ -1,0 +1,49 @@
+.outer-elipse {
+  border:solid 2px rgb(61, 108, 176);
+  border-radius: 150px/150px;
+  width: 233px;
+  height: 233px;
+  display: inline-block;
+
+  margin: 15px 82px 30px 100px;
+}
+
+.inner-elipse {
+
+  border-radius: 150px/150px;
+  background-color: rgb(61, 108, 176);
+  width: 203px;
+  height: 203px;
+  
+  margin:15px;
+  
+} 
+
+.name {
+  height:53px;
+  font-size: 52.24px;
+  font-family: "Myriad Pro", Arial;
+  
+  margin: 0 0 0 75px;
+
+}
+
+.surname{  	
+  height:62px;
+  font-size: 61.73px;
+  font-family: "Myriad Pro", Arial;
+  font-weight: bold;
+  
+  margin: 0 0 0 75px;
+
+}
+
+.graphic-designer {
+  height:25px;
+  font-size: 24.99px;
+  font-family: "Myriad Pro", Arial;
+  font-weight: bold;
+  text-align:center;
+  
+  margin: 0 0 0 75px;
+}

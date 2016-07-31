@@ -1,0 +1,137 @@
+div{
+	/*border:.5px solid;*/
+}
+
+/*Main Page*/
+.container{
+	box-sizing:border-box;
+	padding:73px 55px 74px 60px;
+	margin:0 auto;
+	width:1240px;
+	height:1754.5px;
+	border:1px solid;
+}
+
+/*Left column*/
+.left, .right{
+	display: inline-block;
+}
+
+/*Right column*/
+.right{
+	float:right;
+}
+
+/*Common*/
+
+/*Container*/
+.name-job, .skills, .contact, .profile{
+	width:415px;
+}
+.contact, .profile{
+	margin: 0 0 43px 0;
+}
+.name-job{
+	margin:0 0 70px 0;
+}
+
+.education, .experience, .software{
+	width:635px;
+	padding: 0 0 40px 0;
+}
+
+/*Title*/
+.profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software {
+	height:72px;
+	font-size:41.15px;
+	font-weight:bold;
+	color:#3d6cb0;
+	display: inline-block;
+}
+.hline{
+	width:100px;
+	height: 5px;
+	background-color:#3d6cb0;
+	display: inline-block;
+}
+
+
+.profile-text{
+	font-size: 15.62px;
+	font-family: "Myriad Pro", Arial;
+	text-align: left;
+}
+
+/*Contact*/
+.contact-table{
+	display:table;
+}
+.contact-row{
+	display:table-row;
+}
+
+.contact-cell-value, .contact-cell{
+	display:table-cell;
+	font-size: 20.58px;
+	font-family: "Myriad Pro", Arial;
+	text-align: left;
+	
+	padding: 15px 40px 15px 0;
+}
+
+.contact-cell{
+	font-weight:bold;
+	color: #3d6cb0;
+	
+	padding: 30px 40px 15px 0;
+}
+
+/*Icons*/
+
+/*Profile*/
+.profile-icon{
+	background-image: url("../Images/PROFILE ICON.png");
+	width:74px;
+	height:72px;
+	display: inline-block;
+}
+
+/*Contact*/
+.phone-icon{
+	background-image: url("../Images/Phone Icon.png");
+	width:72px;
+	height:72px;
+	display: inline-block;
+}
+
+/*Experience*/
+.experience-icon{
+	background-image: url("../Images/EXPERIENCE ICON.png");
+	width:77px;
+	height:74px;
+	display: inline-block;
+}
+
+/*Skills*/
+.skills-icon{
+	background-image: url("../Images/SKILLS ICON.png");
+	width:72px;
+	height:72px;
+	display: inline-block;
+}
+
+/*Education*/
+.education-icon{
+	background-image: url("../Images/EDUCATION ICON.png");
+	width:74px;
+	height:72px;
+	display: inline-block;
+}
+
+/*Software*/
+.software-icon{
+	background-image: url("../Images/SOFTWARE ICON.png");
+	width:74px;
+	height:72px;
+	display: inline-block;
+}
