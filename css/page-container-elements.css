@@ -1,5 +1,78 @@
+body{
+background: repeating-linear-gradient(
+  -45deg,
+  #8093a1,
+  #8093a1 57px,
+  #8c9eac 57px,
+  #8c9eac 114px);
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+	margin-top:40px;
+	background-image: url("../Images/FREEPIK LOGO.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+	
+}
+
 div{
-	/*border:.5px solid;*/
+	/*border:.5px solid black;*/
+}
+span{
+font-weight:normal;
+	color:black;
+	font-size:25.72px;
+}
+
+li {
+  list-style: none;
+}
+li:before {
+  /* For a round bullet */
+  content: '\2022';
+  display: block;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -30px;
+  top: -25px;
+  color: black;
+  font-size: 70px;
+}
+
+li{
+	font-weight:bold;
+	font-size:25.72px;
+	color:#3d6cb0;
+	margin-bottom:20px;
+}
+li p{
+	font-weight:normal;
+	font-size:15.43px;
+color:black;
+		margin-bottom:5px;
+			margin-top:5px;
+}
+ul{
+	margin-top:20px;
+		margin-bottom:10px;
+}
+
+h3{
+	font-weight:normal;
+		font-size:25.72px;
+	color:black;
+		margin-bottom:0;
+			margin-top:0;
+}
+
+p span{
+font-weight:bold;
+	font-size: 15.62px;
 }
 
 /*Main Page*/
@@ -8,8 +81,10 @@ div{
 	padding:73px 55px 74px 60px;
 	margin:0 auto;
 	width:1240px;
-	height:1754.5px;
-	border:1px solid;
+	/*height:1754.5px;*/
+	/*border:1px solid;*/
+	background:white;
+	box-shadow: 9px 20px 5px rgba(80,80,80,.3);
 }
 
 /*Left column*/
@@ -28,16 +103,42 @@ div{
 .name-job, .skills, .contact, .profile{
 	width:415px;
 }
-.contact, .profile{
+
+.contact{
+	padding-bottom:55px;
+}
+
+.profile{
 	margin: 0 0 43px 0;
 }
+.contact, .profile, .skills{
+	margin: 0 0 0px 0;
+}
+
+.skills-skills{
+margin-bottom:-30px;
+}
+
 .name-job{
 	margin:0 0 70px 0;
 }
 
 .education, .experience, .software{
 	width:635px;
-	padding: 0 0 40px 0;
+	padding: 0 0 0px 0;
+}
+
+.experience{
+	padding: 0 0 30px 0;
+}
+
+.education, .experience, .software{
+
+	padding: 0 0 20px 0;
+}
+
+.experience ul{
+margin-top :40px;
 }
 
 /*Title*/
@@ -47,14 +148,45 @@ div{
 	font-weight:bold;
 	color:#3d6cb0;
 	display: inline-block;
-}
-.hline{
-	width:100px;
-	height: 5px;
-	background-color:#3d6cb0;
-	display: inline-block;
+	
+	  position: relative;
+  top: 50%;
+  transform: translateY(-33%);
+  
+  padding-left:15px;
 }
 
+.hline-p, .hline-c, .hline-s, .hline-e, .hline-ex, .hline-so{
+	/*width:100px;*/
+	height: 5px;
+	background-color:#3d6cb0;
+	/*display: inline-block;*/
+	margin-top:38px;
+	float:right;
+}
+
+.hline-p{
+	width:138px;
+}
+
+.hline-c{
+	width:120px;
+}
+
+.hline-s{
+	width:160px;
+}
+
+.hline-e{
+	width:290px;
+}
+
+.hline-ex{
+	width:260px;
+}
+.hline-so{
+	width:310px;
+}
 
 .profile-text{
 	font-size: 15.62px;
@@ -76,14 +208,14 @@ div{
 	font-family: "Myriad Pro", Arial;
 	text-align: left;
 	
-	padding: 15px 40px 15px 0;
+	padding: 15px 40px 0px 0;
 }
 
 .contact-cell{
 	font-weight:bold;
 	color: #3d6cb0;
 	
-	padding: 30px 40px 15px 0;
+	padding: 30px 40px 0px 0;
 }
 
 /*Icons*/
@@ -120,6 +252,37 @@ div{
 	display: inline-block;
 }
 
+.elipse, .elipse-grey{
+	width: 17px;
+	height: 17px;
+	border-radius: 9px 8px 8px 9px/9px 9px 8px 8px;
+	background-color: #3d6cb0;
+	display:inline-block;
+	margin:5px;
+}
+
+.elipse-grey{
+	background-color: #e6e6e6;
+	display:inline-block;
+}
+
+.skills p{
+text-align:center;
+font-size:25.72px;
+margin:20px 0 0 0;
+}
+
+.skills-skills p{
+	font-size:41.15px;
+	font-weight:bold;
+	color:#3d6cb0
+}
+
+.skill-container{
+margin-left:45px;
+}
+
+
 /*Education*/
 .education-icon{
 	background-image: url("../Images/EDUCATION ICON.png");
@@ -134,4 +297,62 @@ div{
 	width:74px;
 	height:72px;
 	display: inline-block;
+}
+
+.software-rate, .software-rate-photoshop,  .software-rate-illustrator, .software-rate-indesign, .software-rate-dreamweawer, .software-rate-after, .software-rate-html{
+	height: 23px;
+	background-color: #3d6cb0;
+
+}
+
+.software-rate-photoshop {
+border-right: 25px solid lightgrey;
+width:255px;
+}
+
+.software-rate-illustrator {
+border-right: 80px solid lightgrey;
+width:200px;
+}
+
+.software-rate-indesign {
+border-right: 120px solid lightgrey;
+width:160px;
+}
+
+.software-rate-dreamweawer {
+border-right: 50px solid lightgrey;
+width:230px;
+}
+
+.software-rate-after {
+border-right: 110px solid lightgrey;
+width:170px;
+}
+
+.software-rate-html {
+border-right: 25px solid lightgrey;
+width:255px;
+}
+
+.software-left, .software-right p{
+font-size:25.72px;
+text-align:left;
+margin-bottom:5px;
+margin-top:15px;
+}
+
+.software-left p{
+font-size:25.72;
+text-align:left;
+margin-bottom:5px;
+margin-top:15px;
+}
+
+.software-left, .software-right{
+	display:inline-block;
+}
+
+.software-left{
+	margin-right:60px;
 }
