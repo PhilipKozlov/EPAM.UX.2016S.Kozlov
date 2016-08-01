@@ -108,15 +108,16 @@ p{
 }
 
 .contact{
+margin-top :30px;
 	padding-bottom:55px;
 }
 
 .profile{
 	margin: 0 0 43px 0;
 }
-.contact, .profile, .skills{
+/*.contact, .profile, .skills{
 	margin: 0 0 0px 0;
-}
+}*/
 
 .skills-skills{
 margin-bottom:-30px;
@@ -141,7 +142,11 @@ margin-bottom:-30px;
 }
 
 .experience ul{
-margin-top :40px;
+margin-top :15px;
+}
+
+.education ul{
+margin-top :0px;
 }
 
 /*Title*/
@@ -150,7 +155,6 @@ margin-top :40px;
 	font-size:41.15px;
 	font-weight:bold;
 	color:#3d6cb0;
-<<<<<<< HEAD
 	display: inline-block;
 	
 	  position: relative;
@@ -165,7 +169,7 @@ margin-top :40px;
 	height: 5px;
 	background-color:#3d6cb0;
 	/*display: inline-block;*/
-	margin-top:38px;
+	margin-top:32px;
 	float:right;
 }
 
@@ -175,21 +179,6 @@ margin-top :40px;
 
 .hline-c{
 	width:120px;
-=======
-	/*display: inline-block;*/
-	float:right;
-	padding-top :15px;
-}
-
-.hline{
-	width: calc(100% - 300px);
-	/*width:150px;*/
-	height: 5px;
-	background-color:#3d6cb0;
-	/*display: inline-block;*/
-	float:right;
-	margin-top:32px;
->>>>>>> origin/master
 }
 
 .hline-s{
@@ -245,8 +234,8 @@ margin-top :40px;
 	background-image: url("../Images/PROFILE ICON.png");
 	width:74px;
 	height:72px;
-	/*display: inline-block;*/
-	float:right;
+	display: inline-block;
+	/*float:right;*/
 }
 
 /*Contact*/
