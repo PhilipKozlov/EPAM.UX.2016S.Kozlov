@@ -1,6 +1,9 @@
 div{
 	/*border:.5px solid;*/
 }
+p{
+	margin:0px;
+}
 
 /*Main Page*/
 .container{
@@ -46,13 +49,19 @@ div{
 	font-size:41.15px;
 	font-weight:bold;
 	color:#3d6cb0;
-	display: inline-block;
+	/*display: inline-block;*/
+	float:right;
+	padding-top :15px;
 }
+
 .hline{
-	width:100px;
+	width: calc(100% - 300px);
+	/*width:150px;*/
 	height: 5px;
 	background-color:#3d6cb0;
-	display: inline-block;
+	/*display: inline-block;*/
+	float:right;
+	margin-top:32px;
 }
 
 
@@ -60,6 +69,7 @@ div{
 	font-size: 15.62px;
 	font-family: "Myriad Pro", Arial;
 	text-align: left;
+	float:right;
 }
 
 /*Contact*/
@@ -93,7 +103,8 @@ div{
 	background-image: url("../Images/PROFILE ICON.png");
 	width:74px;
 	height:72px;
-	display: inline-block;
+	/*display: inline-block;*/
+	float:right;
 }
 
 /*Contact*/
