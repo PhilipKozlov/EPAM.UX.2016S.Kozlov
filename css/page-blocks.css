@@ -1,0 +1,52 @@
+.container{
+
+	box-sizing:border-box;
+	
+	padding:73px 55px 74px 60px;
+	margin:0 auto;
+	width:1240px;
+	/*height:1754.5px;*/
+	background:white;
+	box-shadow: 9px 20px 5px rgba(80,80,80,.3);
+}
+
+.left, .right{
+	display: inline-block;
+}
+
+.right{
+	float:right;
+}
+
+.name-job, .skills, .contact, .profile{
+	width:415px;
+}
+
+.education, .experience, .software{
+	width:635px;
+	margin-bottom:50px;
+}
+
+.name-job{
+	margin:0 0 70px 0;
+}
+
+.profile, .skills{
+	margin-bottom :25px;
+}
+
+.contact{
+	margin-bottom :35px;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+	margin-top:40px;
+	background-image: url("../Images/FREEPIK LOGO.png");
+	background-repeat: no-repeat;
+	background-position: center; 
+}

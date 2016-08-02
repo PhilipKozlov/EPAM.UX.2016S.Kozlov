@@ -1,50 +1,56 @@
-.outer-elipse {
-  border:solid 2px rgb(61, 108, 176);
-  border-radius: 150px/150px;
-  width: 233px;
-  height: 233px;
-  display: inline-block;
-
-  margin: 15px 82px 30px 100px;
-
+body{
+	background: repeating-linear-gradient(
+	-45deg,
+	#8093a1,
+	#8093a1 57px,
+	#8c9eac 57px,
+	#8c9eac 114px);
 }
-
-.inner-elipse {
-
-  border-radius: 150px/150px;
-  background-color: rgb(61, 108, 176);
-  width: 203px;
-  height: 203px;
-  
-  margin:15px;
-  
-} 
-
-.name {
-  height:53px;
-  font-size: 52.24px;
-  font-family: "Myriad Pro", Arial;
-  
-  margin: 0 0 0 75px;
-
+span{
+	font-weight:normal;
+	color:black;
+	font-size:25.72px;
 }
-
-.surname{  	
-  height:62px;
-  font-size: 61.73px;
-  font-family: "Myriad Pro", Arial;
-  font-weight: bold;
-  
-  margin: 0 0 0 75px;
-
+li:before {
+	content: '\2022';
+	display: block;
+	position: relative;
+	max-width: 0;
+	max-height: 0;
+	left: -30px;
+	top: -25px;
+	color: black;
+	font-size: 70px;
 }
-
-.graphic-designer {
-  height:25px;
-  font-size: 24.99px;
-  font-family: "Myriad Pro", Arial;
-  font-weight: bold;
-  text-align:center;
-  
-  margin: 0 0 0 75px;
+li{
+	list-style: none;
+	font-weight:bold;
+	font-size:25.72px;
+	color:#3d6cb0;
+	margin-bottom:20px;
+}
+li p{
+	font-weight:normal;
+	font-size:15.43px;
+	color:black;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+ul{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h3{
+	font-weight:normal;
+	font-size:25.72px;
+	color:black;
+	margin-bottom:0;
+	margin-top:0;
+}
+p span{
+	font-weight:bold;
+	font-size: 15.62px;
+}
+p{
+	margin:0px;
 }
