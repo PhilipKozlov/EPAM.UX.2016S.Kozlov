@@ -1,3 +1,8 @@
+.wrapper{
+	min-height:100%;
+	position:relative;
+}
+
 .container{
 	box-sizing:border-box;
 	
@@ -7,14 +12,15 @@
 	/*height:1754.5px;*/
 	background:white;
 	box-shadow: 9px 20px 5px rgba(80,80,80,.3);
+
 }
 
 .left, .right{
 	display: inline-block;
 }
 
-.right{
-	float:right;
+.left{
+	float:left;
 }
 
 .name-job, .skills, .contact, .profile{
@@ -24,28 +30,29 @@
 .education, .experience, .software{
 	width:635px;
 	margin-bottom:50px;
+	margin-left:70px;
+
 }
 
 .name-job{
 	margin:0 0 70px 0;
 }
 
-.profile, .skills{
-	margin-bottom :25px;
-}
-
-.contact{
-	margin-bottom :35px;
+.profile, .skills, .contact{
+	margin-bottom :45px;
 }
 
 .footer {
+	
     position: relative;
     left: 0;
     bottom: 0;
     height: 50px;
     width: 100%;
 	margin-top:40px;
+	
 	background-image: url("../Images/FREEPIK LOGO.png");
 	background-repeat: no-repeat;
 	background-position: center; 
+
 }
