@@ -1,3 +1,6 @@
+/*div{
+	border:.5px solid black;
+}*/
 body{
 	background: repeating-linear-gradient(
 	-45deg,
@@ -7,22 +10,24 @@ body{
 	#8c9eac 114px);
 }
 span{
+	text-transform:lowercase;
+	font-family: "MyriadProRegular", Arial;
 	font-weight:normal;
 	color:black;
 	font-size:25.72px;
 }
-li:before {
+.education li:before, .experience li:before {
 	content: '\2022';
 	display: block;
 	position: relative;
 	max-width: 0;
 	max-height: 0;
-	left: -30px;
-	top: -25px;
+	left: -35px;
+	top: -35px;
 	color: black;
 	font-size: 70px;
 }
-li{
+.education li, .experience li{
 	list-style: none;
 	font-weight:bold;
 	font-size:25.72px;
@@ -30,17 +35,20 @@ li{
 	margin-bottom:20px;
 }
 li p{
+	text-transform:lowercase;
+	font-family: "MyriadProRegular", Arial;
 	font-weight:normal;
 	font-size:15.43px;
 	color:black;
 	margin-bottom:5px;
 	margin-top:5px;
 }
-ul{
+.education ul, .experience ul{
 	margin-top:0px;
 	margin-bottom:0px;
 }
 h3{
+	font-family: "MyriadProRegular", Arial;
 	font-weight:normal;
 	font-size:25.72px;
 	color:black;
@@ -53,4 +61,5 @@ p span{
 }
 p{
 	margin:0px;
+
 }
