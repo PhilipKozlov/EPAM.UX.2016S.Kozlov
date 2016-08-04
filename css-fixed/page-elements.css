@@ -1,0 +1,64 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+body{
+	background: repeating-linear-gradient(
+	-45deg,
+	#8093a1,
+	#8093a1 57px,
+	#8c9eac 57px,
+	#8c9eac 114px);
+}
+span{
+	text-transform:lowercase;
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	color:black;
+	font-size:25.72px;
+}
+
+li p{
+	text-transform:lowercase;
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	font-size:15.43px;
+	color:black;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+
+h3{
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	font-size:25.72px;
+	color:black;
+	margin-bottom:0;
+	margin-top:0;
+	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+p span{
+	font-weight:bold;
+	font-size: 15.62px;
+}
+p{
+	margin:0px;
+}
+
+ul{
+	clear:both;
+}
+
+label{
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
