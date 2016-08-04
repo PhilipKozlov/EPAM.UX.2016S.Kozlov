@@ -1,11 +1,12 @@
+/*Common*/
 .profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software {
 	font-size:41.15px;
 	font-weight:bold;
 	color:#3d6cb0;
 	font-family: "MyriadProBold", Arial;
 	text-transform:uppercase;
-	
 	float:left;
+	
 }
 
 .profile-profile p, .contact-contact p, .skills-skills p, .education-education p, .experience-experience p, .software-software p{
@@ -21,135 +22,29 @@
 }
 
 .education-education p, .experience-experience p, .software-software p{
-	
 	max-width:520px;
 }
 
-.title{
-	overflow:hidden;
-}
-
-.profile-profile::before{
-	content: url("../Images/PROFILE ICON.png");
-	margin-right:12px;
-	/*width:74px;*/
-	float:left;
-}
-
-.profile-profile::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:148px;
-
-	float:left;
-}
-
-.contact-contact::before{
-	content: url("../Images/Phone Icon.png");
-	margin-right:12px;
-	float:left;
-}
-
-.contact-contact::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:140px;
-	float:left;
-}
-
-.skills-skills::before{
-	content: url("../Images/SKILLS ICON.png");
-	margin-right:12px;
-	float:left;
-}
-
-.skills-skills::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:180px;
-	float:left;
-}
-
-.education-education::before{
-	content: url("../Images/EDUCATION ICON.png");
-	margin-right:12px;
-	float:left;
-}
-
-.education-education::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:310px;
-	float:left;
-}
-
-.experience-experience::before{
-	content: url("../Images/EXPERIENCE ICON.png");
-	margin-right:12px;
-	float:left;
-}
-
-.experience-experience::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:290px;
-	float:left;
-}
-
-.software-software::before{
-	content: url("../Images/SOFTWARE ICON.png");
-	margin-right:12px;
-	float:left;
-}
-
-.software-software::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:320px;
-	float:left;
-}
-
 /*Name-Job*/
-.outer-elipse {
-  border:solid 2px #3d6cb0;
-  border-radius: 150px/150px;
-  width: 233px;
-  height: 233px;
-  display: inline-block;
-  margin: 15px 82px 30px 100px;
-}
-
-.inner-elipse {
+.ellipse{
   border-radius: 150px/150px;
   background-color: #3d6cb0;
   width: 203px;
   height: 203px;
-  margin:15px;
-} 
+  
+	border:solid 12px white;
+	border-radius: 150px/150px;
+	box-shadow: 0 0 0px 2px #3d6cb0;
+	
+	margin: 15px 82px 30px 100px;
+	display: inline-block;
+}
 
 .name {
-  font-size: 58px;
+  font-size: 52.24px;
   font-family: "MyriadProRegular", Arial;
   text-transform:uppercase;
-  margin: 0 0 0 75px;
-  
-  	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-	max-width:350px;
-
+  text-align:center;
 }
 
 .surname{  	
@@ -157,11 +52,9 @@
   font-family: "MyriadProBold", Arial;
   text-transform:uppercase;
   font-weight: bold;
-  margin: -15px 0 0 75px;
-  
-    text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
+  margin-top:-20px;
+  margin-left:15px;
+  text-align:center;
 }
 
 .graphic-designer {
@@ -170,18 +63,14 @@
   text-transform:uppercase;
   font-weight: bold;
   text-align:center;
-  
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-		max-width:350px;
+  margin-top:-5px;
 }
 
+/*Profile*/
 .profile-text{
 	font-size: 15.62px;
 	font-family: "MyriadProRegular", Arial;
 	text-align: left;
-		max-width:350px;
 }
 
 /*Contact*/
@@ -200,7 +89,6 @@
 }
 
 .contact-cell{
-	/*display:inline;*/
 	display:table-cell;
 	font-size: 20.58px;
 	font-family: "MyriadProRegular", Arial;
@@ -222,6 +110,7 @@
 	padding: 30px 40px 0px 0;
 }
 
+/*Skills*/
 .skill-container{
 	margin-left:45px;
 }
@@ -260,10 +149,6 @@
 	font-size:25.72px;
 	color:black;
 	text-align:center;
-	margin-top:0;
-	
-	max-width:280px;
-	
 }
 
 .skills-skills p{
@@ -279,34 +164,41 @@
 	margin-bottom:20px;
 }
 
-.education ul, .experience ul{
-	padding-top:25px;
-}
-
-.education span:before{
+/*Education-Experience*/
+.education span:before, .experience span:before{
 	content: "\00a0//\00a0";
 }
 
-.education span{
+.education span, .experience span{
 	text-transform:capitalize;
-}
-
-.education li{
-	text-transform:uppercase;
-	font-family: "MyriadProBold", Arial;
 }
 
 .experience li{
 	color:black;
-	font-family: "MyriadProBold", Arial;
 }
 
-.experience span:before{
-	content: "\00a0//\00a0";
+.education li::before, .experience li::before {
+	content: '';
+	border-radius: 15px/15px;
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: relative;
+	left: -35px;
+	top: 25px;
 }
 
-.experience span{
-	text-transform:capitalize;
+.education li, .experience li{
+	list-style: none;
+	font-weight:bold;
+	font-size:25.72px;
+	color:#3d6cb0;
+	margin-bottom:20px;
+}
+
+.experience li{
+	color:black;
 }
 
 /*Software*/
@@ -326,33 +218,10 @@
 	margin-bottom:10px;
 	margin-top:18px;
 	
-			text-overflow: ellipsis;
+	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
 	
 	max-width:280px;
 }
 
-/**/
-.education li::before, .experience li::before {
-	content: '\2022';
-	display: block;
-	position: relative;
-	max-width: 0;
-	max-height: 0;
-	left: -35px;
-	top: -35px;
-	color: black;
-	font-size: 70px;
-}
-.education li, .experience li{
-	list-style: none;
-	font-weight:bold;
-	font-size:25.72px;
-	color:#3d6cb0;
-	margin-bottom:20px;
-}
-
-.experience li{
-	color:black;
-}
