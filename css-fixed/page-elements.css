@@ -23,7 +23,7 @@ p span{
 	font-size: 15.62px;
 }
 p{
-	margin:0px;
+	margin:0;
 }
 ul{
 	clear:both;
@@ -33,8 +33,6 @@ li p{
 	font-weight:normal;
 	font-size:15.43px;
 	color:black;
-	margin-bottom:5px;
-	margin-top:5px;
 }
 h3{
 	font-family: "MyriadProRegular", Arial;

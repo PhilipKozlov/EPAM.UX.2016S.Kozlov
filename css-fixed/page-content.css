@@ -5,13 +5,16 @@
 	color:#3d6cb0;
 	font-family: "MyriadProBold", Arial;
 	text-transform:uppercase;
-	float:left;
 	
+	width:100%;
+	
+	float:left;
+
 }
 
 .profile-profile p, .contact-contact p, .skills-skills p, .education-education p, .experience-experience p, .software-software p{
 	float:left;
-	margin-top:8px;
+	margin-top:11px;
 	
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -19,6 +22,7 @@
 	
 	min-width:100px;
 	max-width:300px;
+
 }
 
 .education-education p, .experience-experience p, .software-software p{
@@ -36,7 +40,7 @@
 	border-radius: 150px/150px;
 	box-shadow: 0 0 0px 2px #3d6cb0;
 	
-	margin: 15px 82px 30px 100px;
+	margin: 15px 82px 30px 145px;
 	display: inline-block;
 }
 
@@ -45,6 +49,7 @@
   font-family: "MyriadProRegular", Arial;
   text-transform:uppercase;
   text-align:center;
+  
 }
 
 .surname{  	
@@ -53,7 +58,7 @@
   text-transform:uppercase;
   font-weight: bold;
   margin-top:-20px;
-  margin-left:15px;
+  /*margin-left:15px;*/
   text-align:center;
 }
 
@@ -112,7 +117,7 @@
 
 /*Skills*/
 .skill-container{
-	margin-left:45px;
+	margin-left:95px;
 }
 
 .elipse, .elipse-grey{
@@ -165,7 +170,7 @@
 }
 
 /*Education-Experience*/
-.education span:before, .experience span:before{
+.education span::before, .experience span::before{
 	content: "\00a0//\00a0";
 }
 
@@ -185,8 +190,11 @@
 	height: 20px;
 	display: block;
 	position: relative;
+	
 	left: -35px;
-	top: 25px;
+	top: 26px;
+	
+	/*float:left;*/
 }
 
 .education li, .experience li{
@@ -195,6 +203,8 @@
 	font-size:25.72px;
 	color:#3d6cb0;
 	margin-bottom:20px;
+	
+	/*float:left;*/
 }
 
 .experience li{
@@ -204,10 +214,11 @@
 /*Software*/
 .software-left, .software-right{
 	float:left;
+	width:45%;
 }
 
 .software-left{
-	margin-right:60px;
+	margin-right:50px;
 }
 
 .software-left p, .software-right p{
@@ -215,6 +226,7 @@
 	font-family: "MyriadProRegular", Arial;
 	font-size:25.72px;
 	text-align:left;
+
 	margin-bottom:10px;
 	margin-top:18px;
 	
@@ -222,6 +234,5 @@
 	white-space: nowrap;
 	overflow: hidden;
 	
-	max-width:280px;
+	max-width:100%;
 }
-

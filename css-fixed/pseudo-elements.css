@@ -1,7 +1,7 @@
 .profile-profile::before, .contact-contact::before, .skills-skills::before, .education-education::before, .experience-experience::before, .software-software::before{
 	content: '';
 	border:solid 3px white;
-	border-radius: 80px/80px;
+	border-radius: 90px/90px;
 	box-shadow: 0 0 0px 1px #3d6cb0;
 
 	background-repeat: no-repeat;
@@ -10,86 +10,46 @@
 	background-color: #3d6cb0;
 	width: 70px;
 	height: 70px;
+	
 	margin:15px;
-	margin-top:2px;
-	margin-left:2px;
+	margin-top:1px;
+	margin-left:3px;
+	
 	float:left;
+}
+
+.profile-profile::after, .contact-contact::after, .skills-skills::after, .education-education::after, .experience-experience::after, .software-software::after{
+	content: '';
+	height: 5px;
+	background-color:#3d6cb0;
+	margin-top:7%;
+	
+	/*margin-top:35px;*/
+	
+	overflow:hidden;
+	display:block;
 }
 
 .profile-profile::before{
 	background-image:url("../Images-fixed/PROFILE ICON.png");
 }
 
-.profile-profile::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:148px;
-	float:left;
-}
-
 .contact-contact::before{
 	background-image: url("../Images-fixed/Phone Icon.png");
-}
-
-.contact-contact::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:140px;
-	float:left;
 }
 
 .skills-skills::before{
 	background-image: url("../Images-fixed/SKILLS ICON.png");
 }
 
-.skills-skills::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:180px;
-	float:left;
-}
-
 .education-education::before{
 	background-image: url("../Images-fixed/EDUCATION ICON.png");
-}
-
-.education-education::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:310px;
-	float:left;
 }
 
 .experience-experience::before{
 	background-image: url("../Images-fixed/EXPERIENCE ICON.png");
 }
 
-.experience-experience::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:290px;
-	float:left;
-}
-
 .software-software::before{
 	background-image: url("../Images-fixed/SOFTWARE ICON.png");
-}
-
-.software-software::after{
-	content: '';
-	height: 5px;
-	background-color:#3d6cb0;
-	margin-top:32px;
-	width:320px;
-	float:left;
 }

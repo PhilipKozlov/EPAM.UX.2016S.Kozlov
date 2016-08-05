@@ -1,9 +1,7 @@
 .progress{
-	width:255px;
+	width:100%;
 	height: 23px;
 	background-color: lightgrey;
-	margin-bottom:5px;
-	margin-top:10px;
 }
 
 .software-rate-photoshop,  .software-rate-illustrator, .software-rate-indesign, .software-rate-dreamweawer, .software-rate-after, .software-rate-html{

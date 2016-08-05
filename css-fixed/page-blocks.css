@@ -13,20 +13,34 @@
 	overflow:hidden;
 }
 
-.name-job, .skills, .contact, .profile, .education, .experience, .software{
+.block{
+	width:45%;
 	font-family: "MyriadProBold", Arial;
-	margin-bottom :45px;
+	/*margin-bottom :45px;*/
+	margin-bottom :2.5%;
 	float:left;
 	overflow:hidden;
+	margin-right :5%;
+	/*margin-right:60px;*/
 }
 
-.name-job, .skills, .contact, .profile{
-	width:415px;
+
+.skills{
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	font-size:25.72px;
+	color:black;
 }
 
 .education, .experience, .software{
-	width:635px;
-	margin-left:70px;
+	margin-left:5%;
+	/*margin-left:50px;*/
+	margin-right:0;
+}
+
+.title{
+	width:100%;
+	overflow:hidden;
 }
 
 .footer a {
