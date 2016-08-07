@@ -14,7 +14,7 @@
 
 .profile-profile p, .contact-contact p, .skills-skills p, .education-education p, .experience-experience p, .software-software p{
 	float:left;
-	margin-top:11px;
+    margin-top:11px;
 	
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -58,7 +58,7 @@
   text-transform:uppercase;
   font-weight: bold;
   margin-top:-20px;
-  /*margin-left:15px;*/
+
   text-align:center;
 }
 
@@ -193,8 +193,6 @@
 	
 	left: -35px;
 	top: 26px;
-	
-	/*float:left;*/
 }
 
 .education li, .experience li{
@@ -203,8 +201,6 @@
 	font-size:25.72px;
 	color:#3d6cb0;
 	margin-bottom:20px;
-	
-	/*float:left;*/
 }
 
 .experience li{
