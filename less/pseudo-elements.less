@@ -1,0 +1,57 @@
+/*Pseudo-elements*/
+.profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software {
+	&::before{
+		content: '';
+		background-color: @main-color;
+		background-position: center;
+		background-repeat: no-repeat;
+		border-radius: 999px;
+		border:solid 3px white;
+		box-shadow: 0 0 0px 1px @main-color;
+		float:left;
+		height: 70px;
+		width: 70px;
+		margin:15px;
+		margin-left:3px;
+		margin-top:1px;
+
+	}
+	&::after{
+		content: '';
+		background-color:@main-color;
+		display:block;
+		height: 5px;
+		margin-top:32.5px;
+		overflow:hidden;
+	}
+}
+.profile-profile {
+	&::before {
+		background-image:url("../Images-fixed/PROFILE ICON.png");
+	}
+}
+.contact-contact {
+	&::before {
+		background-image: url("../Images-fixed/Phone Icon.png");
+	}
+}
+.skills-skills {
+	&::before {
+		background-image: url("../Images-fixed/SKILLS ICON.png");
+	}
+}
+.education-education {
+	&::before {
+		background-image: url("../Images-fixed/EDUCATION ICON.png");
+	}
+}
+.experience-experience {
+	&::before {
+		background-image: url("../Images-fixed/EXPERIENCE ICON.png");
+	}
+}
+.software-software {
+	&::before {
+		background-image: url("../Images-fixed/SOFTWARE ICON.png");
+	}
+}
