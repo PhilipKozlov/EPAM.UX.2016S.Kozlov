@@ -1,0 +1,49 @@
+.profile-profile::before, .contact-contact::before, .skills-skills::before, .education-education::before, .experience-experience::before, .software-software::before{
+	content: '';
+	border:solid 3px white;
+	border-radius: 90px/90px;
+	box-shadow: 0 0 0px 1px #3d6cb0;
+
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	background-color: #3d6cb0;
+	width: 70px;
+	height: 70px;
+	
+    margin:15px;
+	margin-top:1px;
+	margin-left:3px;
+	
+	float:left;
+}
+
+.profile-profile::after, .contact-contact::after, .skills-skills::after, .education-education::after, .experience-experience::after, .software-software::after{
+	content: '';
+	height: 5px;
+	background-color:#3d6cb0;
+	
+	margin-top:35px;
+
+	overflow:hidden;
+	display:block;
+}
+
+.profile-profile::before{
+		background-image:url("../ImagesFixed/profile_icon.png");
+}
+.contact-contact::before {
+		background-image: url("../ImagesFixed/phone_icon.png");
+}
+.skills-skills::before {
+		background-image: url("../ImagesFixed/skills_icon.png");
+}
+.education-education::before {
+		background-image: url("../ImagesFixed/education_icon.png");
+}
+.experience-experience::before{
+		background-image: url("../ImagesFixed/experience_icon.png");
+}
+.software-software::before{
+		background-image: url("../ImagesFixed/software_icon.png");
+}

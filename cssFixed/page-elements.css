@@ -1,0 +1,53 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+body{
+	background: repeating-linear-gradient(
+	-45deg,
+	#8093a1,
+	#8093a1 57px,
+	#8c9eac 57px,
+	#8c9eac 114px);
+}
+span{
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	color:black;
+	font-size:25.72px;
+}
+p span{
+	font-weight:bold;
+	font-size: 15.62px;
+}
+p{
+	margin:0;
+}
+ul{
+	clear:both;
+}
+li p{
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	font-size:15.43px;
+	color:black;
+}
+h3{
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	font-size:25.72px;
+	color:black;
+	margin-bottom:0;
+	margin-top:0;
+	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+label{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}

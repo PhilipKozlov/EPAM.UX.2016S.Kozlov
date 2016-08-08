@@ -1,0 +1,234 @@
+/*Common*/
+.profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software {
+	font-size:41.15px;
+	font-weight:bold;
+	color:#3d6cb0;
+	font-family: "MyriadProBold", Arial;
+	text-transform:uppercase;
+	
+	width:100%;
+	
+	float:left;
+
+}
+
+.profile-profile p, .contact-contact p, .skills-skills p, .education-education p, .experience-experience p, .software-software p{
+	float:left;
+    margin-top:11px;
+	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	
+	min-width:100px;
+	max-width:300px;
+
+}
+
+.education-education p, .experience-experience p, .software-software p{
+	max-width:520px;
+}
+
+/*Name-Job*/
+.ellipse{
+  border-radius: 150px/150px;
+  background-color: #3d6cb0;
+  width: 203px;
+  height: 203px;
+  
+	border:solid 12px white;
+	border-radius: 150px/150px;
+	box-shadow: 0 0 0px 2px #3d6cb0;
+	
+	margin: 15px 82px 30px 145px;
+	display: inline-block;
+}
+
+.name {
+  font-size: 52.24px;
+  font-family: "MyriadProRegular", Arial;
+  text-transform:uppercase;
+  text-align:center;
+  
+}
+
+.surname{  	
+  font-size: 61.73px;
+  font-family: "MyriadProBold", Arial;
+  text-transform:uppercase;
+  font-weight: bold;
+  margin-top:-20px;
+
+  text-align:center;
+}
+
+.graphic-designer {
+  font-size: 24.99px;
+  font-family: "MyriadProBold", Arial;
+  text-transform:uppercase;
+  font-weight: bold;
+  text-align:center;
+  margin-top:-5px;
+}
+
+/*Profile*/
+.profile-text{
+	font-size: 15.62px;
+	font-family: "MyriadProRegular", Arial;
+	text-align: left;
+}
+
+/*Contact*/
+.contact-table{
+	display:table;
+}
+.contact-row{
+	display:table-row;
+}
+
+.contact-cell-value{
+	display:table-cell;
+	font-size: 20.58px;
+	font-family: "MyriadProRegular", Arial;
+	text-align: left;
+}
+
+.contact-cell{
+	display:table-cell;
+	font-size: 20.58px;
+	font-family: "MyriadProRegular", Arial;
+	text-align: left;
+	overflow:hidden;
+	max-width:100px;
+	margin-right:60px;
+}
+
+.contact-cell-value{
+    border: none;
+    border-color: transparent;
+}
+
+.contact-cell{
+	font-weight:bold;
+	text-transform:uppercase;
+	color: #3d6cb0;
+	padding: 30px 40px 0px 0;
+}
+
+/*Skills*/
+.skill-container{
+	margin-left:95px;
+}
+
+.elipse, .elipse-grey{
+	width: 17px;
+	height: 17px;
+	border-radius: 9px 8px 8px 9px/9px 9px 8px 8px;
+	background-color: #3d6cb0;
+	display:inline-block;
+	margin:5px;
+}
+
+.elipse-grey{
+	background-color: #e6e6e6;
+}
+
+.skill-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.skill-list li {
+    float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.skills p{
+	font-family: "MyriadProRegular", Arial;
+	font-weight:normal;
+	font-size:25.72px;
+	color:black;
+	text-align:center;
+}
+
+.skills-skills p{
+	font-size:41.15px;
+	font-weight:bold;
+	color:#3d6cb0;
+	font-family: "MyriadProBold", Arial;
+	text-transform:uppercase;
+	margin-top:8px;
+}
+
+.skills ul{
+	margin-bottom:20px;
+}
+
+/*Education-Experience*/
+.education span::before, .experience span::before{
+	content: "\00a0//\00a0";
+}
+
+.education span, .experience span{
+	text-transform:capitalize;
+}
+
+.experience li{
+	color:black;
+}
+
+.education li::before, .experience li::before {
+	content: '';
+	border-radius: 15px/15px;
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: relative;
+	
+	left: -35px;
+	top: 26px;
+}
+
+.education li, .experience li{
+	list-style: none;
+	font-weight:bold;
+	font-size:25.72px;
+	color:#3d6cb0;
+	margin-bottom:20px;
+}
+
+.experience li{
+	color:black;
+}
+
+/*Software*/
+.software-left, .software-right{
+	float:left;
+	width:45%;
+}
+
+.software-left{
+	margin-right:50px;
+}
+
+.software-left p, .software-right p{
+	text-transform:uppercase;
+	font-family: "MyriadProRegular", Arial;
+	font-size:25.72px;
+	text-align:left;
+
+	margin-bottom:10px;
+	margin-top:18px;
+	
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	
+	max-width:100%;
+}
