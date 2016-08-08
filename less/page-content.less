@@ -1,12 +1,9 @@
 /*Variables*/
-@min-width: 100px; 
-@max-width: 100%; 
 @list-bullet-width: 20px; 
 @list-bullet-height: 20px;
 @skill-ellipse-width: 17px;
 @skill-ellipse-height: 17px; 
 @block-width: 100%;
-@software-sub-block-width: 45%;
 @rounded-border:999px;
 
 /*Common*/
@@ -26,8 +23,7 @@
 	h3{
 		margin-top:5px;
 		margin-bottom:0;
-		max-width:@max-width;
-		min-width:@min-width;
+		max-width:70%;
 		float:left;
 	}
 }
@@ -74,31 +70,33 @@
 	text-align: left;
 }
 /*Contact*/
-.contact-table {
-	display:table;
+.contact{
+	overflow:hidden;
 }
-.contact-row {
-	display:table-row;
+.contact-table {
+	margin-top:40px;
+	overflow:hidden;
 }
 .contact-cell-value {
-	display:table-cell;
+	box-sizing:border-box;
 	border: none;
-	border-color: transparent;
 	font-family: @font;
 	font-size: 20.58px;
 	text-align: left;
+	width:100%;
+	margin-bottom:20px;
+	display:block;
 }
 .contact-cell {
-	display:table-cell;
 	color: @main-color;
 	font-family: @font;
 	font-size: 20.58px;
 	font-weight:bold;
-	margin-right:60px;
-	max-width:250px;
-	padding: 30px 40px 0px 0;
+	width:100%;
+	margin-bottom:20px;
 	text-align: left;
 	text-transform:uppercase;
+	display:block;
 }
 /*Skills*/
 .elipse {
@@ -108,20 +106,17 @@
 	.skill-elipse(#e6e6e6, @rounded-border, @skill-ellipse-width, @skill-ellipse-height)
 }
 .skill-list {
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	li {
-		color: white;
-		display: block;
-		float: left;
-		text-align: center;
+		list-style-type: none;
 		text-decoration: none;
+		display:inline-block;
 	}
 }
 .skills {
 	text-align:center;
+	overflow:hidden;
 	h4 {
 		color:black;
 		font-family: @font;
@@ -130,7 +125,6 @@
 	}
 	ul {
 		margin-bottom:20px;
-		margin-left:12%;
 	}
 }
 .skills-skills {
@@ -175,3 +169,4 @@
 .software {
 	overflow:hidden;
 }
+
