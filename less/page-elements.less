@@ -5,7 +5,12 @@ html {
 }
 body {
   margin-bottom: 50px;
-  background: repeating-linear-gradient( -45deg, @gradient-color2, @gradient-color2 57px, @gradient-color1 57px, @gradient-color1 114px);
+  background: repeating-linear-gradient( 
+				-45deg, 
+				@gradient-color-lightgrey, 
+				@gradient-color-lightgrey 57px, 
+				@gradient-color-grey 57px, 
+				@gradient-color-grey 114px);
 }
 span {
 	color:black;
@@ -20,6 +25,9 @@ p {
 		font-weight:bold;
 	}
 }
+ul{
+	margin:0;
+}
 li {
 	p {
 		color:black;
@@ -28,15 +36,15 @@ li {
 		font-weight:normal;
 	}
 }
+h1,h2,h3,h4{
+	.text-overflow-ellipsis;
+}
 h4 {
 	color:black;
 	font-family: @font;
 	font-size:@font-size-medium;
 	font-weight:normal;
-	margin-bottom:0;
-	margin-top:0;
-	
-	.text-overflow-ellipsis;
+	margin:0;
 }
 
 label {

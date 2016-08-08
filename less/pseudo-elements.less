@@ -1,19 +1,25 @@
 /*Pseudo-elements*/
-.profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software {
+.profile-profile, 
+.contact-contact, 
+.skills-skills, 
+.education-education, 
+.experience-experience, 
+.software-software {
 	&::before{
 		content: '';
 		background-color: @main-color;
 		background-position: center;
 		background-repeat: no-repeat;
-		border-radius: 999px;
+		border-radius: @rounded-border;
 		border:solid 3px white;
 		box-shadow: 0 0 0px 1px @main-color;
 		float:left;
 		height: 70px;
 		width: 70px;
-		margin:15px;
+		margin-right:15px;
 		margin-left:3px;
 		margin-top:1px;
+		margin-bottom:1px;
 
 	}
 	&::after{
@@ -27,31 +33,31 @@
 }
 .profile-profile {
 	&::before {
-		background-image:url("../Images-fixed/PROFILE ICON.png");
+		background-image:url("../ImagesFixed/profile_icon.png");
 	}
 }
 .contact-contact {
 	&::before {
-		background-image: url("../Images-fixed/Phone Icon.png");
+		background-image: url("../ImagesFixed/phone_icon.png");
 	}
 }
 .skills-skills {
 	&::before {
-		background-image: url("../Images-fixed/SKILLS ICON.png");
+		background-image: url("../ImagesFixed/skills_icon.png");
 	}
 }
 .education-education {
 	&::before {
-		background-image: url("../Images-fixed/EDUCATION ICON.png");
+		background-image: url("../ImagesFixed/education_icon.png");
 	}
 }
 .experience-experience {
 	&::before {
-		background-image: url("../Images-fixed/EXPERIENCE ICON.png");
+		background-image: url("../ImagesFixed/experience_icon.png");
 	}
 }
 .software-software {
 	&::before {
-		background-image: url("../Images-fixed/SOFTWARE ICON.png");
+		background-image: url("../ImagesFixed/software_icon.png");
 	}
 }

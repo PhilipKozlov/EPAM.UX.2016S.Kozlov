@@ -1,3 +1,4 @@
+/*Mixins*/
 .text-overflow-ellipsis{
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -20,4 +21,8 @@
 	font-size:@font-size-medium;
 	font-weight:bold;
 	list-style: none;
+}
+.progress(@progress:100%, @color:lightgrey) {
+	background-color: @color;
+	width:@progress;
 }

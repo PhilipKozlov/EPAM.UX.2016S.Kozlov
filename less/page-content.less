@@ -10,23 +10,25 @@
 @rounded-border:999px;
 
 /*Common*/
-.profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software  {
+.profile-profile, 
+.contact-contact, 
+.skills-skills, 
+.education-education, 
+.experience-experience, 
+.software-software  {
 	color:@main-color;
-	float:left;
+	overflow:hidden;
 	font-family: @font-bold;
 	font-size:41.15px;
 	font-weight:bold;
 	text-transform:uppercase;
 	width:@block-width;
-}
-.profile-profile, .contact-contact, .skills-skills, .education-education, .experience-experience, .software-software {
-
 	h3{
 		margin-top:5px;
+		margin-bottom:0;
 		max-width:@max-width;
 		min-width:@min-width;
 		float:left;
-		.text-overflow-ellipsis;
 	}
 }
 /*Name-Job*/
@@ -40,6 +42,11 @@
 	margin:0 auto;
 	margin-bottom:40px;
 	display:block;
+}
+.name,
+.surname,
+.graphic-designer{
+	margin:0;
 }
 .name {
 	font-family: @font;
@@ -88,7 +95,7 @@
 	font-size: 20.58px;
 	font-weight:bold;
 	margin-right:60px;
-	max-width:@max-width;
+	max-width:250px;
 	padding: 30px 40px 0px 0;
 	text-align: left;
 	text-transform:uppercase;
@@ -114,21 +121,20 @@
 	}
 }
 .skills {
-	p {
+	text-align:center;
+	h4 {
 		color:black;
 		font-family: @font;
 		font-size:@font-size-medium;
 		font-weight:normal;
-		text-align:center;
 	}
 	ul {
 		margin-bottom:20px;
 		margin-left:12%;
-		text-align:center;
 	}
 }
 .skills-skills {
-	p {
+	h4 {
 		color:@main-color;
 		font-family: @font-bold;
 		font-size:41.15px;
@@ -137,7 +143,8 @@
 	}
 }
 /*Education-Experience*/
-.education, .experience {
+.education, 
+.experience {
 	span {
 		text-transform:capitalize;
 		&::before {
@@ -167,13 +174,4 @@
 /*Software*/
 .software {
 	overflow:hidden;
-	p {
-		font-family: @font;
-		font-size:@font-size-medium;
-		margin-bottom:10px;
-		max-width:@block-width;
-		overflow: hidden;
-		text-align:left;
-		.text-overflow-ellipsis;
-	}
 }
